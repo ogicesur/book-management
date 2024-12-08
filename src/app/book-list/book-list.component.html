@@ -1,0 +1,14 @@
+<h1>Books</h1>
+<div *ngFor="let book of books$ | async">
+    <h2>{{ book.title }}</h2>
+    <p>{{ book.author }}</p>
+    <button (click)="removeBook(book.id)">Remove</button>
+</div>
+<h2>Create a new book</h2>
+
+<div>
+    <input #bookId type="text" placeholder="Book ID">
+    <input #bookTitle type="text" placeholder="Book Title">
+    <input #bookAuthor type="text" placeholder="Book Author">
+    <button (click)="addBook(bookId.value, bookTitle.value, bookAuthor.value)">Add Book</button>
+</div>
