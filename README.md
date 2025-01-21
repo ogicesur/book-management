@@ -1,27 +1,49 @@
-# BookManagement
+# Book Management System
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+**Book Management System** is a web application built with Angular that allows users to manage a collection of books. The application provides features to add, edit, and delete book entries, as well as organize and search through the collection efficiently.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Book Catalog**: Manage a comprehensive list of books with details like title, author, and genre.
+- **Search and Filter**: Search for books by title or filter them by author or genre.
+- **Add/Edit/Delete Books**: Easily add new books, edit existing details, or remove entries.
+- **Responsive Design**: Optimized for use across devices, including desktops, tablets, and mobile phones.
+- **User-Friendly Interface**: Intuitive design for seamless user interactions.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular**: Framework for building dynamic and scalable web applications.
+- **TypeScript**: A strongly-typed language for safer and more maintainable code.
+- **HTML & CSS**: For creating a modern and responsive user interface.
+- **Karma**: For running unit tests.
 
-## Build
+## Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To run this project locally, ensure you have the following installed:
 
-## Running unit tests
+- [Node.js](https://nodejs.org/) (version 16 or higher)
+- npm (comes bundled with Node.js)
+- [Angular CLI](https://angular.io/cli) (version 16.2.16 or higher)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Getting Started
 
-## Running end-to-end tests
+Follow these steps to set up and run the project locally:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Clone the Repository
 
-## Further help
+```bash
+git clone https://github.com/ogicesur/book-management.git
+cd book-management
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+```
+### Install Dependencies
+
+Run the following command to install all required dependencies:\
+`npm install`
+
+### Run the Development Server
+
+Start the application in development mode:\
+
+`npm start`
